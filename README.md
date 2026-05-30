@@ -45,6 +45,16 @@ Keep `OSH_THEME="powerline"` — only `powerline.theme.sh` inside `custom/themes
 
 Available colors: `powerline-dracula-blue`, `powerline-dracula-red`, `powerline-dracula-purple`, `powerline-dracula-cyan`, `powerline-dracula-green`, `powerline-dracula-yellow`, `powerline-dracula-orange`, `powerline-dracula-pink`, `powerline-dracula-gray`.
 
+### Restore original colors
+
+To go back to the default Oh My Bash powerline colors, replace `powerline.theme.sh` in your custom copy with the bundled theme from your local installation:
+
+```bash
+cp "$OSH/themes/powerline/powerline.theme.sh" \
+   "$OSH_CUSTOM/themes/powerline/powerline.theme.sh"
+source ~/.bashrc
+```
+
 ## Variants
 
 
