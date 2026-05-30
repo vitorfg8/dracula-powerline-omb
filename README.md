@@ -8,7 +8,7 @@ Custom [Oh My Bash](https://github.com/ohmybash/oh-my-bash) themes based on the 
 
 **Oh My Bash** — A community framework for managing Bash configuration, plugins, and themes. See the [repository](https://github.com/ohmybash/oh-my-bash) and [wiki](https://github.com/ohmybash/oh-my-bash/wiki).
 
-**Dracula** — A dark color scheme used across hundreds of apps. Palette and contribution guidelines: [draculatheme.com/contribute](https://draculatheme.com/contribute). Syntax rules: [spec.draculatheme.com](https://spec.draculatheme.com/).
+**Dracula** — A dark color scheme used across hundreds of apps. Palette and contribution guidelines: [draculatheme.com/contribute](https://draculatheme.com/contribute).
 
 ## Install Oh My Bash
 
@@ -45,25 +45,25 @@ Keep `OSH_THEME="powerline"` — only `powerline.theme.sh` inside `custom/themes
 
 Available colors: `powerline-dracula-blue`, `powerline-dracula-red`, `powerline-dracula-purple`, `powerline-dracula-cyan`, `powerline-dracula-green`, `powerline-dracula-yellow`, `powerline-dracula-orange`, `powerline-dracula-pink`, `powerline-dracula-gray`.
 
-
 ## Variants
 
-| Theme name | User segment BG |
-|---|---|
-| `powerline-dracula-blue` | `#6272A4` |
-| `powerline-dracula-red` | `#FF5555` |
-| `powerline-dracula-purple` | `#BD93F9` |
-| `powerline-dracula-cyan` | `#8BE9FD` |
-| `powerline-dracula-green` | `#50FA7B` |
-| `powerline-dracula-yellow` | `#F1FA8C` |
-| `powerline-dracula-orange` | `#FFB86C` |
-| `powerline-dracula-pink` | `#FF79C6` |
-| `powerline-dracula-gray` | `#F8F8F2` |
+
+| Theme name                 | User segment BG |
+| -------------------------- | --------------- |
+| `powerline-dracula-blue`   | `#6272A4`       |
+| `powerline-dracula-red`    | `#FF5555`       |
+| `powerline-dracula-purple` | `#BD93F9`       |
+| `powerline-dracula-cyan`   | `#8BE9FD`       |
+| `powerline-dracula-green`  | `#50FA7B`       |
+| `powerline-dracula-yellow` | `#F1FA8C`       |
+| `powerline-dracula-orange` | `#FFB86C`       |
+| `powerline-dracula-pink`   | `#FF79C6`       |
+| `powerline-dracula-gray`   | `#F8F8F2`       |
 
 
 Source: [draculatheme.com/contribute](https://draculatheme.com/contribute)
 
 ## License
 
-License
 See [LICENSE](LICENSE) . Dracula Powerline for Oh My Bash is derived from [Oh My Bash](https://github.com/ohmybash/oh-my-bash). 
+
