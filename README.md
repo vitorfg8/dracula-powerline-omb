@@ -1,4 +1,4 @@
-# Dracula Powerline for Oh My Bash!
+# Dracula Powerline for Oh My Bash
 
 Custom [Oh My Bash](https://github.com/ohmybash/oh-my-bash) themes based on the built-in [powerline](https://github.com/ohmybash/oh-my-bash/tree/master/themes/powerline) theme. Nine variants apply the official [Dracula color palette](https://draculatheme.com/contribute) to the user/session segment; the remaining prompt segments use harmonious Dracula colors with automatic light/dark text contrast.
 
@@ -66,4 +66,4 @@ Source: [draculatheme.com/contribute](https://draculatheme.com/contribute)
 ## License
 
 License
-See LICENSE.md. Dracula Powerline for Oh My Bash! is derived from Oh My Bash[https://github.com/ohmybash/oh-my-bash]. 
+See LICENSE.md. Dracula Powerline for Oh My Bash is derived from [Oh My Bash](https://github.com/ohmybash/oh-my-bash). 
