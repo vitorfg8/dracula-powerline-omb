@@ -65,4 +65,5 @@ Source: [draculatheme.com/contribute](https://draculatheme.com/contribute)
 
 ## License
 
-MIT
+License
+See LICENSE.md. Dracula Powerline for Oh My Bash! is derived from Oh My Bash[https://github.com/ohmybash/oh-my-bash]. 
