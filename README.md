@@ -1,14 +1,16 @@
-# Dracula Powerline for Oh My Bash
+# Custom Powerline for Oh My Bash
 
-Custom [Oh My Bash](https://github.com/ohmybash/oh-my-bash) themes based on the built-in [powerline](https://github.com/ohmybash/oh-my-bash/tree/master/themes/powerline) theme. Nine variants apply the official [Dracula color palette](https://draculatheme.com/) to the user/session segment; the remaining prompt segments use harmonious Dracula colors with automatic light/dark text contrast.
+Custom [Oh My Bash](https://github.com/ohmybash/oh-my-bash) themes based on the built-in [powerline](https://github.com/ohmybash/oh-my-bash/tree/master/themes/powerline) theme. Seventeen variants across two palettes — nine [Dracula](https://draculatheme.com/) and eight [Nord](https://www.nordtheme.com/) — apply a palette accent to the user/session segment; the remaining prompt segments use harmonious colors with automatic light/dark text contrast.
 
 ## About
 
-**This project** — Nine Dracula-themed powerline variants. Each folder contains a single `powerline.theme.sh`.
+**This project** — Seventeen powerline variants spanning the Dracula and Nord palettes. Each folder contains a single `powerline.theme.sh`.
 
 **Oh My Bash** — A community framework for managing Bash configuration, plugins, and themes. See the [repository](https://github.com/ohmybash/oh-my-bash) and [wiki](https://github.com/ohmybash/oh-my-bash/wiki).
 
 **Dracula** — A dark color scheme used across hundreds of apps. Palette and contribution guidelines: [draculatheme.com/contribute](https://draculatheme.com/contribute).
+
+**Nord** — An arctic, north-bluish color palette. Colors and palettes: [nordtheme.com/docs/colors-and-palettes](https://www.nordtheme.com/docs/colors-and-palettes).
 
 ## Install Oh My Bash
 
@@ -45,6 +47,19 @@ Keep `OSH_THEME="powerline"` — only `powerline.theme.sh` inside `custom/themes
 
 Available colors: `powerline-dracula-blue`, `powerline-dracula-red`, `powerline-dracula-purple`, `powerline-dracula-cyan`, `powerline-dracula-green`, `powerline-dracula-yellow`, `powerline-dracula-orange`, `powerline-dracula-pink`, `powerline-dracula-gray`.
 
+### Apply a Nord variant
+
+Pick a color folder under `themes/` (for example `powerline-nord-green`) and replace the powerline theme file in your custom copy:
+
+```bash
+cp themes/powerline-nord-green/powerline.theme.sh \
+   "$OSH_CUSTOM/themes/powerline/powerline.theme.sh"
+```
+
+Keep `OSH_THEME="powerline"` — only `powerline.theme.sh` inside `custom/themes/powerline/` changes; no extra theme name is required.
+
+Available colors: `powerline-nord-green`, `powerline-nord-red`, `powerline-nord-orange`, `powerline-nord-yellow`, `powerline-nord-purple`, `powerline-nord-blue`, `powerline-nord-teal`, `powerline-nord-pink`.
+
 ### Restore original colors
 
 To go back to the default Oh My Bash powerline colors, replace `powerline.theme.sh` in your custom copy with the bundled theme from your local installation:
@@ -69,11 +84,19 @@ source ~/.bashrc
 | `powerline-dracula-orange` | `#FFB86C`       |
 | `powerline-dracula-pink`   | `#FF79C6`       |
 | `powerline-dracula-gray`   | `#F8F8F2`       |
+| `powerline-nord-green`     | `#a3be8c`       |
+| `powerline-nord-red`       | `#bf616a`       |
+| `powerline-nord-orange`    | `#d08770`       |
+| `powerline-nord-yellow`    | `#ebcb8b`       |
+| `powerline-nord-purple`    | `#b48ead`       |
+| `powerline-nord-blue`      | `#5e81ac`       |
+| `powerline-nord-teal`      | `#8fbcbb`       |
+| `powerline-nord-pink`      | `#88c0d0`       |
 
 
-Source: [draculatheme.com/contribute](https://draculatheme.com/contribute)
+Source: [draculatheme.com/contribute](https://draculatheme.com/contribute) (Dracula), [nordtheme.com/docs/colors-and-palettes](https://www.nordtheme.com/docs/colors-and-palettes) (Nord)
 
 ## License
 
-See [LICENSE](LICENSE) . Dracula Powerline for Oh My Bash is derived from [Oh My Bash](https://github.com/ohmybash/oh-my-bash). 
+See [LICENSE](LICENSE) . Custom Powerline for Oh My Bash is derived from [Oh My Bash](https://github.com/ohmybash/oh-my-bash). 
 
