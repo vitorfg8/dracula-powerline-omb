@@ -1,10 +1,10 @@
 # Custom Powerline for Oh My Bash
 
-Custom [Oh My Bash](https://github.com/ohmybash/oh-my-bash) themes based on the built-in [powerline](https://github.com/ohmybash/oh-my-bash/tree/master/themes/powerline) theme. Seventeen variants across two palettes — nine [Dracula](https://draculatheme.com/) and eight [Nord](https://www.nordtheme.com/) — apply a palette accent to the user/session segment; the remaining prompt segments use harmonious colors with automatic light/dark text contrast.
+Custom [Oh My Bash](https://github.com/ohmybash/oh-my-bash) themes based on the built-in [powerline](https://github.com/ohmybash/oh-my-bash/tree/master/themes/powerline) theme. Eighteen variants across two palettes — nine [Dracula](https://draculatheme.com/) and nine [Nord](https://www.nordtheme.com/) — apply a palette accent to the user/session segment; the remaining prompt segments use harmonious colors with automatic light/dark text contrast.
 
 ## About
 
-**This project** — Seventeen powerline variants spanning the Dracula and Nord palettes. Each folder contains a single `powerline.theme.sh`.
+**This project** — Eighteen powerline variants spanning the Dracula and Nord palettes. Each folder contains a single `powerline.theme.sh`.
 
 **Oh My Bash** — A community framework for managing Bash configuration, plugins, and themes. See the [repository](https://github.com/ohmybash/oh-my-bash) and [wiki](https://github.com/ohmybash/oh-my-bash/wiki).
 
@@ -58,7 +58,7 @@ cp themes/powerline-nord-green/powerline.theme.sh \
 
 Keep `OSH_THEME="powerline"` — only `powerline.theme.sh` inside `custom/themes/powerline/` changes; no extra theme name is required.
 
-Available colors: `powerline-nord-green`, `powerline-nord-red`, `powerline-nord-orange`, `powerline-nord-yellow`, `powerline-nord-purple`, `powerline-nord-blue`, `powerline-nord-teal`, `powerline-nord-pink`.
+Available colors: `powerline-nord-green`, `powerline-nord-red`, `powerline-nord-orange`, `powerline-nord-yellow`, `powerline-nord-purple`, `powerline-nord-blue`, `powerline-nord-teal`, `powerline-nord-pink`, `powerline-nord-gray`.
 
 ### Restore original colors
 
@@ -92,6 +92,7 @@ source ~/.bashrc
 | `powerline-nord-blue`      | `#5e81ac`       |
 | `powerline-nord-teal`      | `#8fbcbb`       |
 | `powerline-nord-pink`      | `#88c0d0`       |
+| `powerline-nord-gray`      | `#4c566a`       |
 
 
 Source: [draculatheme.com/contribute](https://draculatheme.com/contribute) (Dracula), [nordtheme.com/docs/colors-and-palettes](https://www.nordtheme.com/docs/colors-and-palettes) (Nord)
